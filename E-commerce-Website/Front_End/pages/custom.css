@@ -1,0 +1,25 @@
+/* custom.css */
+.btn-orange {
+    background-color: rgb(226, 106, 37);
+    border-color: rgb(233, 125, 35);
+    color: white;
+}
+
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active {
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+}
+/* custom.css */
+.btn-orange {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+}
+.btn-orange:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+}

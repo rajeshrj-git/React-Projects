@@ -1,0 +1,99 @@
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .register-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+.mb-6 {
+  margin-bottom: 6rem; 
+}
+.dropdwon-item:hoevr{
+  background-color: rgb(44, 44, 211);
+  color : rgb(122, 50, 50);
+
+}
+/* custom.css */
+
+/* Override default color change on button click */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+}
+
+/* You can further customize the icons if needed */
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 fill%3D%27%23000%27 viewBox%3D%270 0 8 8%27%3E%3Cpath d%3D%27M4.5 0l-4 4 4 4v-8zm-1 1.406v5.188l-2.594-2.594 2.594-2.594z%27/%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 fill%3D%27%23000%27 viewBox%3D%270 0 8 8%27%3E%3Cpath d%3D%27M3.5 0l-4 4 4 4v-8zm1 1.406v5.188l2.594-2.594-2.594-2.594z%27/%3E%3C/svg%3E');
+}
+
+/* custom.css */
+.btn-orange {
+  background-color: orange;
+  border-color: orange;
+  color: white;
+}
+
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active {
+  background-color: darkorange;
+  border-color: darkorange;
+  color: white;
+}
